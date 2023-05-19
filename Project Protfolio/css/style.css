@@ -1,0 +1,834 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Neue Montreal, Medium", sans-serif;
+}
+
+.container-main {
+    background-image: url(/Uploads/Banner-01.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 110vh;
+}
+
+.nav-image {
+    position: absolute;
+    display: block;
+    margin-left: 7%;
+    margin-top: 2vh;
+}
+
+.links ul {
+    float: right;
+    display: flex;
+    /* display: inline; */
+    list-style: none;
+}
+
+.links ul li {
+    margin-right: 4vw;
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.img-container {
+    position: absolute;
+    margin-top: 10vh;
+    display: block;
+    height: 60vh;
+    width: 98vw;
+    top: 30vh;
+
+
+}
+
+.img-container img {
+    margin-left: 2vw;
+}
+
+
+.img-container h2 {
+    display: inline-block;
+    color: white;
+    font-size: 5rem;
+    width: 35vw;
+    margin-left: 2vw;
+
+}
+
+.text-right h3 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+    display: block;
+    padding-bottom: 100px;
+}
+
+.container2 {
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/Uploads/Banner-02.png);
+    background-size: cover;
+}
+
+.second-text {
+    margin-top: 6vw;
+    margin-left: 21vw;
+    position: absolute;
+    /* display: flex; */
+    /* margin: 0 auto; */
+    /* border: 2px solid black; */
+    height: 70vh;
+    width: 70vw;
+}
+
+.second-text p {
+    margin-top: 7vw;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    width: 25vw;
+    height: 60vh;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.second-text span {
+    color: #E94443;
+}
+
+#second-text-image {
+    width: 50%;
+    margin-bottom: 15%;
+}
+
+
+
+/* <<<<<<<<<<<<<<<<<<< Page 3 >>>>>>>>>>>>>>>>>>>> */
+
+.container3 {
+    display: flex;
+    height: 83vh;
+    background-image: url(/Uploads/Banner-03.png);
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.container3-text {
+    margin-top: 30vh;
+    width: 30vw;
+    height: 40vh;
+}
+
+.container3-text h2 {
+    text-align: center;
+    font-size: 2.1rem;
+    line-height: 44px;
+    font-weight: 400;
+    color: #ffff;
+}
+
+.container3-text span {
+    color: #E94443;
+}
+
+.container4 {
+    height: 220vh;
+    background-color: #F3F4EF;
+    position: relative;
+
+}
+
+.grid-container {
+    position: relative;
+    top: 10vh;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    gap: 9vw;
+    column-gap: 10%;
+    grid-template-columns: 30vw 30vw;
+}
+
+.grid-container::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.text-four {
+    padding: 1%;
+    margin-top: 3vh;
+}
+
+.text-four h1 {
+    color: #262460;
+    font-weight: 600;
+    font-size: 2.1em;
+}
+
+.cards {
+    padding: 6%;
+    width: 30vw;
+    height: 35vh;
+    /* border: 2px solid #E94443; */
+    background-color: white;
+}
+
+
+.cards-text h2 {
+    color: #262460;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.cards-text p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.cards-text span {
+    color: #E94443;
+}
+
+.cards-width {
+    width: 35vw;
+}
+
+/* <<<<<<<<<<<<<<< PAGE 5 >>>>>>>>>>>>>>>>>>>>>>>> */
+.container5 {
+    height: 100vh;
+    /* width: 90vw; */
+
+
+}
+
+.container5-main {
+    /* border: 2px solid pink; */
+    justify-content: center;
+    align-items: center;
+    height: 129vh;
+
+}
+
+.container5-text {
+    margin-top: 5vh;
+    text-align: center;
+    color: #262460;
+    font-size: 1rem;
+}
+
+.container5-image {
+    margin-top: 4vh;
+    position: relative;
+    /* left: 30vw; */
+    margin-left: 30vw;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<   page 7 >>>>>>>>>>>> */
+.container7 {
+    height: 130vh;
+    width: 99%;
+    background-color: #F3F4EF;
+}
+
+.upper-container {
+    width: 98%;
+    height: 40vh;
+    /* background-color: plum; */
+}
+
+.upper-text7 {
+    position: relative;
+    width: 30vw;
+}
+
+.upper-main {
+    /* position: absolute; */
+    margin: 5% 5%;
+    /* top: 20%; */
+    /* border: 2px solid black; */
+    width: 90vw;
+    height: 120vh;
+
+}
+
+.container7-grid {
+    height: 90vh;
+    width: 90vw;
+    /* background-color: yellow; */
+    /* width: 1366px;
+    height: 768px; */
+
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<  PAGE 9 >>>>>>>>>>>>>>>>> */
+
+.container9 {
+    height: 100vh;
+    width: 99vw;
+
+}
+
+.container9-image {
+    width: 40vw;
+    height: 98vh;
+    margin: 5% 30%;
+    /* border: 3px solid green; */
+}
+
+.container9-image h2 {
+    padding: 3%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #262460;
+}
+
+.container9-image img {
+    margin-left: 8%;
+    width: 80%;
+}
+
+.container10 {
+    height: 134vh;
+    width: 99%;
+    background-color: #F3F4EF;
+}
+
+.container10-bottom {
+    height: 100vh;
+    width: 97vw;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+}
+
+.container10-bottom img {
+    width: 100%;
+}
+
+.layout {
+    height: 768px;
+    /* border: 2px solid #262460; */
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+
+    align-items: flex-start;
+}
+
+.layout img {
+
+    width: 70%;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<  PAGE 11 >>>>>>>>>>>> */
+
+.container11 {
+    height: 100vh;
+    width: 99%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container11 h2 {
+    padding: 3%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.container11-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 3%;
+    border: none;
+}
+
+.card-body button {
+    outline: none;
+    border: none;
+    color: white;
+    width: 20vw;
+    background: rgb(38, 36, 96);
+    background: linear-gradient(90deg, rgba(38, 36, 96, 1) 30%, rgba(233, 68, 67, 1) 67%);
+}
+
+.card-body button:hover {
+    transform: scale(0.9, 1)
+}
+
+.container12 {
+    height: 110vh;
+    width: 99%;
+}
+
+.container12 h2 {
+    color: #262460;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.container12-grid {
+    margin: 0 auto;
+    height: 100vh;
+    width: 90vw;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* width: 1366px;
+    height: 768px; 
+    
+  
+    /* display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px; */
+}
+
+.youtube-card {
+    margin: 0 auto;
+    height: 50vh;
+    width: 25vw;
+}
+
+.youtube-card img {
+    width: 100%;
+}
+
+.youtube-btn {
+    outline: none;
+    border: none;
+    color: white;
+    width: 20vw;
+
+    margin-left: 2vw;
+    background: rgb(38, 36, 96);
+    background: linear-gradient(90deg, rgba(38, 36, 96, 1) 30%, rgba(233, 68, 67, 1) 67%);
+}
+
+#first-page-text {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 8vw;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    font-weight: 600;
+    margin-right: 3vw;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<< FOOTER >>>>>>>>>>>>>>>>>>>>>>>> */
+
+.container-footer {
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(/Uploads/Banner-03.png);
+}
+
+.footer-main {
+    position: relative;
+    margin: 2% 4%;
+    /* display: flex; */
+    width: 90vw;
+    height: 95vh;
+    /* border: 2px solid white; */
+
+}
+
+.footer-left {
+    color: white;
+    padding: 40px;
+    margin-top: 4%;
+    margin-left: 5%;
+    position: absolute;
+    width: 35%;
+    height: 90%;
+    /* border: 2px solid green; */
+}
+
+
+
+.footer-right {
+    position: relative;
+    margin-top: 4%;
+    right: 9%;
+    width: 50%;
+    height: 88%;
+    /* border: 2px solid black; */
+    float: right;
+    
+}
+.footer-right input {
+    margin: 1%;
+}
+
+.form-group h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    color: white;
+    padding: 4%;
+}
+
+.col-one input {
+    width: 22vw;
+    height: 7vh;
+    margin-left: 7px;
+}
+
+.col-two input {
+    width: 46.5vw;
+    height: 7vh;
+}
+
+#text-input {
+    height: 20vh;
+}
+
+.button-input {
+    margin-top: 4%;
+    width: 10vw;
+    height: 8vh;
+    border: none;
+    border-radius:5px ;
+    
+}
+
+#toggle-btn {
+    width: 10%;
+    float: right;
+    margin-right: 10px;
+}
+
+#ex-css1 {
+    color: white;
+    margin-left: 2.5vw;
+}
+
+#color-orange {
+    color: orange;
+}
+
+#new-css2 {
+    margin-left: 3%;
+}
+
+#new-css3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#new-css4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#new-css5 {
+    margin-left: 3%;
+}
+
+#new-css6 {
+    color: #262460;
+}
+
+.new-css7 {
+    width: 20rem;
+}
+
+/* <<<<<<<<<<<<<<<< MEDIA queries >>>>>>>>>>>>>>>>>>>>> */
+@media only screen and (min-width:1300px) {
+    #toggle-btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container3-text {
+        margin-top: 30vh;
+        width: 90vw;
+        height: 40vh;
+    }
+
+    #first-page-text {
+        display: none;
+        color: black;
+    }
+
+    .container-main {
+        background-image: url(/Uploads/Banner-01.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 56vh;
+    }
+
+    .img-container {
+        top: 9vh;
+
+    }
+
+    .img-container h2 {
+        font-size: 2rem;
+    }
+
+    .img-container img {
+        margin-left: 2vw;
+        width: 29%;
+    }
+
+    .second-text p {
+        margin-top: 7vw;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 21px;
+        width: 61vw;
+        height: 34vh;
+        display: inline-block;
+    }
+
+    .container2 {
+        height: 85vh;
+    }
+
+    #second-text-image {
+        width: 90%;
+    }
+
+    .grid-container {
+        position: relative;
+        top: 10vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 9vw;
+        column-gap: 10%;
+        grid-template-columns: 30vw 30vw;
+        flex-wrap: wrap;
+    }
+
+    .cards-width {
+        width: 95vw;
+    }
+
+    .cards {
+        width: 95vw;
+    }
+
+    .container4 {
+        height: 274vh;
+    }
+
+    .container5 {
+        height: 77vh;
+    }
+
+    .container5-image {
+        margin: 0 auto;
+    }
+
+    .container5-image img {
+        width: 100%;
+        margin-top: 8vh;
+    }
+
+    .upper-text7 {
+        position: relative;
+        width: 71vw;
+    }
+
+    .container7-grid {
+        height: 201vh;
+        width: 90vw;
+        /* background-color: yellow; */
+        display: flex;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container7 {
+        height: 252vh;
+        width: 100%;
+        background-color: #F3F4EF;
+    }
+
+    .container9-image {
+        width: 100%;
+        margin: 5% 0%;
+    }
+
+    .container9 {
+        height: 75vh;
+    }
+
+    .upper-container {
+        width: 77vw;
+    }
+
+    .container10 {
+        height: 525vh;
+
+    }
+
+    .layout {
+        height: 768px;
+        /* border: 2px solid #262460; */
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container11-cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        height: 7vh;
+        width: 96%;
+    }
+
+    .container11 {
+        height: 160vh;
+    }
+
+    .container12-grid {
+        margin: 0 auto;
+        height: 58vh;
+        width: 90vw;
+        /* border: 2px solid red; */
+        display: flex;
+        /* gap: 10px; */
+        flex-wrap: wrap;
+    }
+
+    .youtube-card {
+        width: 80vw;
+    }
+
+    #grad-btn {
+        width: 75vw;
+    }
+
+    .container12 {
+        height: 302vh;
+        width: 98vw;
+    }
+
+    .container-footer {
+        height: 160vh;
+        width: 100vw;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(/Uploads/Banner-03.png);
+    }
+
+    .footer-main {
+
+        /* margin: 2% 4%; */
+        /* display: flex; */
+        width: 90vw;
+        height: 140vh;
+        /* border: 2px solid white; */
+
+    }
+
+    .footer-left {
+        color: white;
+        padding: 40px;
+        margin-top: 4%;
+        margin-left: 5%;
+        /* position: absolute; */
+        width: 91%;
+        height: 48%;
+        /* border: 2px solid green; */
+    }
+
+    .form-group {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .footer-right {
+        position: relative;
+        top: 26%;
+        margin-right: 9%;
+        width: 84%;
+        height: 45%;
+        /* border: 2px solid black; */
+        float: right;
+        left: 2%;
+    }
+
+    .col-one input {
+        width: 72vw;
+        height: 7vh;
+    }
+
+    .col-two input {
+        width: 80vw;
+        height: 7vh;
+    }
+    .button-input {
+        width: 40%;
+    }
+    #button-input {
+        width: 30vw;
+        height: 7vh;
+        border-radius: 4px;
+        border: none;
+        margin-left: 4%;
+        margin-top: 2%;
+    }
+
+    .links {
+        display: none;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .footer-right input {
+        margin: 4px;
+    }
+}
